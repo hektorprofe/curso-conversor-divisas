@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Conversor de divisas</title>
+</head>
+<body>
+
+  <div class="divisa">
+    <div class="nombre">Euros</div>
+    <input class="valor" type="number" value="1" data-cambio="1" step="0.25" onChange="valorCambiado(this)"/>
+  </div>
+
+  <div class="divisa">
+    <div class="nombre">Dólares</div>
+    <input class="valor" type="number" value="1" data-cambio="1.125" step="0.25" onChange="valorCambiado(this)"/>
+  </div>
+
+  <div class="divisa">
+    <div class="nombre">Libras</div>
+    <input class="valor" type="number" value="1" data-cambio="0.8647" step="0.25" onChange="valorCambiado(this)"/>
+  </div>
+
+  <div class="divisa">
+    <div class="nombre">Yenes</div>
+    <input class="valor" type="number" value="1" data-cambio="125.86" step="0.25" onChange="valorCambiado(this)"/> 
+  </div>
+
+  <script src="scripts.js" ></script>
+</body>
+</html>
